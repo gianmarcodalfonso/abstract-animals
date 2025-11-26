@@ -3,6 +3,16 @@ package org.lessons.java;
 public class Aquila extends abstractAnimal{
   protected int wingWidth;
 
+  // getter
+  public int getWingWidth(){
+    return this.wingWidth;
+  }
+
+  // setter
+  public void setWingWidth(int newWingWidth){
+    this.wingWidth = newWingWidth;
+  }
+
   public Aquila(String name, int height, int newWingWidth){
     super(name, height);
     this.wingWidth = newWingWidth;

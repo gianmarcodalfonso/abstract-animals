@@ -3,6 +3,16 @@ package org.lessons.java;
 public class Cane extends abstractAnimal{
   protected boolean hasPedigree;
 
+  // getter
+  public boolean getHasPedigree(){
+    return this.hasPedigree;
+  }
+
+  // setter
+  public void setHasPedigree(boolean newHasPedigree){
+    this.hasPedigree = newHasPedigree;
+  }
+
   public Cane(String name, int height, boolean newHasPedigree){
     super(name, height);
     this.hasPedigree = newHasPedigree;

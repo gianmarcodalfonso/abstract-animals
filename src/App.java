@@ -26,5 +26,12 @@ public class App {
         mioDelfino1.mangia();
         mioDelfino1.verso();
         System.out.println("-------------");
+        // test getters e setters
+        System.out.println(mioDelfino1.getRegisteredSpeed());
+        mioDelfino1.setRegisteredSpeed(62);
+        System.out.println(mioDelfino1.getRegisteredSpeed());
+        System.out.println(mioPasserotto1.getHasNest());
+        mioPasserotto1.setHasNest(false);
+        System.out.println(mioPasserotto1.getHasNest());
     }
 }
