@@ -1,0 +1,21 @@
+package org.lessons.java;
+
+public class Aquila extends abstractAnimal{
+  protected int wingWidth;
+
+  public Aquila(String name, int height, int newWingWidth){
+    super(name, height);
+    this.wingWidth = newWingWidth;
+  }
+
+  @Override
+  public void verso() {
+    System.out.println("Suono acuto");
+  }
+
+  @Override
+  public void mangia() {
+    System.out.println("Mangia lepri");
+  }
+
+}
