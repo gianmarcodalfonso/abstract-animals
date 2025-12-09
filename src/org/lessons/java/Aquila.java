@@ -1,6 +1,6 @@
 package org.lessons.java;
 
-public class Aquila extends abstractAnimal{
+public class Aquila extends abstractAnimal implements Ivolante{
   protected int wingWidth;
 
   // getter

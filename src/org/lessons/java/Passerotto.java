@@ -1,6 +1,6 @@
 package org.lessons.java;
 
-public class Passerotto extends abstractAnimal{
+public class Passerotto extends abstractAnimal implements Ivolante{
   protected boolean hasNest;
 
   // getter
@@ -27,5 +27,6 @@ public class Passerotto extends abstractAnimal{
   public void mangia() {
     System.out.println("Mangia vermi");
   }
+
 
 }

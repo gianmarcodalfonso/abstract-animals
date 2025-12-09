@@ -1,6 +1,6 @@
 package org.lessons.java;
 
-public class Delfino extends abstractAnimal{
+public class Delfino extends abstractAnimal implements Inuotante{
   protected int registeredSpeed;
 
   // getter
