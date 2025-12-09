@@ -27,5 +27,10 @@ public class Delfino extends abstractAnimal implements Inuotante{
   public void mangia() {
     System.out.println("Mangia calamari");
   }
+  
+  @Override
+  public void nuota(){
+    System.out.println("Sto nuotando");
+  }
 
 }

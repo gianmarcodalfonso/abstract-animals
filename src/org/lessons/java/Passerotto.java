@@ -28,5 +28,10 @@ public class Passerotto extends abstractAnimal implements Ivolante{
     System.out.println("Mangia vermi");
   }
 
+  @Override
+  public void vola(){
+    System.out.println("Sto volando");
+  }
+
 
 }

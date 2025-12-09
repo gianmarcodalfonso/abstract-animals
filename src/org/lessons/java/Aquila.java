@@ -28,4 +28,9 @@ public class Aquila extends abstractAnimal implements Ivolante{
     System.out.println("Mangia lepri");
   }
 
+  @Override
+  public void vola(){
+    System.out.println("Sto volando");
+  }
+
 }
