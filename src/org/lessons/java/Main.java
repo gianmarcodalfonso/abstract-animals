@@ -27,5 +27,20 @@ public class Main {
   delfino1.dormi();
   delfino1.mangia();
   delfino1.verso();
+
+  System.out.println("-------------------");
+
+  faivolare(aquila1);
+  faivolare(passerotto1);
+  fainuotare(delfino1);
+
+  }
+
+  static void faivolare(Ivolante animaleVolante){
+    animaleVolante.vola();
+  }
+
+  static void fainuotare(Inuotante animaleNuotante){
+    animaleNuotante.nuota();
   }
 }
